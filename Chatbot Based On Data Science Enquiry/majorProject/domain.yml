@@ -1,0 +1,100 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - enquiry_data_science
+  - prerequisites
+  - education
+  - programming_languages
+  - skills
+  - fees
+  - salary
+
+responses:
+  utter_greet:
+  - text: "Hey! I am a Data science assistant bot,how may i help you?"
+
+  utter_data_science :
+  - text : "Data science combines math and statistics, specialized programming, advanced analytics,
+   artificial intelligence (AI) and machine learning with specific subject matter expertise to uncover actionable insights hidden
+    in an organizations data. These insights can be used to guide decision making and strategic planning."
+
+  utter_prerequisites :
+  - text : "You'll typically need a degree in a computer science, mathematical or science-based subject to work as a data scientist.
+   The following degree subjects may be particularly useful: 
+  computer science. data science/computer and data science."
+
+  utter_education :
+  - text : "Aspiring students also need to have at least a total aggregate of 50% on their high school score sheet. 
+  The data science course eligibility for students looking for opportunities for Diploma in Data Science includes a
+   BE/BTech/MCA/MSc degree, with their core subjects being statistics, computer, or programming."
+
+  utter_programming_languages :
+  - text : "Top data science programming languages are :<br>
+  Python : Python is a general-purpose programming language that can get used to develop any software.
+   It is among the top programming languages for data science. 
+  Python is known for its simple syntax, easy readability, and code portability. <br>
+  R : R is a statistical programming language commonly used for statistical analysis, 
+  data visualization, and other forms of data manipulation. R has become increasingly
+   popular among data scientists because of its ease of use and flexibility in handling 
+   complex analyses on large datasets. <br>
+  SQL : SQL is one of the world's most widely used programming languages. 
+  It is a declarative language for interacting with 
+  databases and allows you to create queries to extract information from your data sets. <br>
+  JavaScript : JavaScript is a programming language used to develop web applications and websites.
+ It has since become the most popular language for building client-side applications online.<br>
+ Java : Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,
+  and specifically designed to have as few implementation dependencies as possible"
+
+  utter_skills :
+  - text : "1. Programming
+Programming languages, such as Python or R, are necessary for data scientists to sort,
+ analyze, and manage large amounts of data (commonly referred to as “big data”).
+ 2. Statistics and probability
+In order to write high-quality machine learning models and algorithms,
+ data scientists need to learn statistics and probability.
+-->Probability distributions
+-->Over and undersampling
+-->Bayesian and frequentist statistics
+-->Dimension reduction
+3. Data visualization
+Not only do you need to know how to analyze, organize, and categorize data,
+ but you’ll also want to build your skills in data visualization. "
+
+  utter_fees :
+  - text : "Data Analytics Course Fees in Certification level is INR 500 – 10,000.
+   Data Analytics Course Fees in Diploma level is INR 9,300 – 2, 00, 000. 
+   Data Analytics Course Fees at the Undergraduate level are INR 90,000 – 21, 00,000.
+    Data Analytics Course Fees at the Postgraduate level are INR 20,000 – 23,00,000."
+
+  utter_salary :
+  - text : "The average salary for Data Scientist is ₹12,59,795 per year in the India. 
+  The average additional cash compensation for a Data Scientist in the India is ₹59,795,
+   with a range from ₹57,163 - ₹62,426. Salaries estimates are based on 12142 salaries submitted anonymously
+   to Glassdoor by Data Scientist employees in India."
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

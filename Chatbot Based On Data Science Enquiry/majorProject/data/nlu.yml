@@ -1,0 +1,153 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: enquiry_data_science
+  examples : |
+    - what is data science ?
+    - i want to know about data science
+    - denfine data science 
+    - defination of data science
+    - tell me about data science
+
+- intent: prerequisites
+  examples : |
+    - what are the prerequisites for studying data science?
+    - prerequisites for studying data science
+    - what are requirements for studying data science ?
+    - requirements for studying data science
+
+
+- intent: education
+  examples : |
+    - what qualification or educational background do i need to have to pursue a degree in data science?
+    - what qualification or educational background need to study data science
+    - what educational background is needed to pursue data science ?
+    - qualification or educational background need for data science ?
+    - qualification or educational background to pursue a degree in data science?
+    - qualification or educational background to learn data science ?
+    - what qualification is required to learn data science ?
+
+- intent: programming_languages
+  examples : |
+    - what programming languages required to learn data science ?
+    - programming languages required to learn data science 
+    - what programming languages needed to learn data science
+    - programming languages needed to learn data science ?
+
+- intent: skills
+  examples : |
+    - what skills required to learn data science ?
+    - skills required to learn about data science 
+    - what skills are needed to learn data science
+    - skills needed to learn data science ?
+    - what are the skills required to learn data science ?
+    - what skills are required for data science ?
+
+- intent: fees
+  examples : |
+    - what is the fees for data science ?
+    - what is the fees for data science program ?
+    - what will be the fees for learning data science ? 
+    - what will be the fees for learning data science program ? 
+    - what will be the fees to learn data science program ? 
+    - what is the fees for learning data science program ?
+    - fees for data science program ?
+
+- intent: salary
+  examples : |
+    - what is the salary of data scientist ?
+    - what will be the salary of data scientist ?
+    - what will be the average salary of a data scientist ? 
+    - what will be the average salary of data scientist ?
+    - what is the average salary of a data scientist
+    - what is the average salary of data scientist ?
+    - salary for data scientist ?
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
